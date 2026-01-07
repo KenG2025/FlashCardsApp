@@ -45,6 +45,11 @@
 			path = FlashCardsAppUITests;
 			sourceTree = "<group>";
 		};
+		BDEA49852F0DF16B00609CBA /* ViewModels */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +83,7 @@
 				BDEA49562F0DEFE500609CBA /* FlashCardsApp */,
 				BDEA49662F0DEFE600609CBA /* FlashCardsAppTests */,
 				BDEA49702F0DEFE600609CBA /* FlashCardsAppUITests */,
+				BDEA49852F0DF16B00609CBA /* ViewModels */,
 				BDEA49552F0DEFE500609CBA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -109,6 +115,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				BDEA49562F0DEFE500609CBA /* FlashCardsApp */,
+				BDEA49852F0DF16B00609CBA /* ViewModels */,
 			);
 			name = FlashCardsApp;
 			packageProductDependencies = (
