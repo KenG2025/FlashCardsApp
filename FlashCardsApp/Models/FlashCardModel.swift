@@ -6,14 +6,14 @@
 //
 import Foundation
 
-struct Deck: Identifiable{
-    let id = UUID()
-    var name: String
-    var cards: [Flashcard]
-}
 
-struct Flashcard: Identifiable{
+struct Flashcard: Identifiable, Codable{
     let id = UUID()
     var front: String
     var back: String
+    
+    init(front: String, back: String) {
+        self.front = front
+        self.back = back
+    }
 }
